@@ -1,0 +1,78 @@
+﻿<Window x:Class="_21Magic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21Magic"
+        mc:Ignorable="d"
+        Title="21Magic" Height="768" Width="1024" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FF00FF74" Offset="0.503"/>
+                <GradientStop Color="#FF84BD82" Offset="0.997"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="imageNpc01" HorizontalAlignment="Left" Height="150" Margin="380,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg" IsHitTestVisible="True"/>
+        <Image x:Name="imageNpc02" HorizontalAlignment="Left" Height="150" Margin="410,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc03" HorizontalAlignment="Left" Height="150" Margin="440,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc04" HorizontalAlignment="Left" Height="150" Margin="470,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc05" HorizontalAlignment="Left" Height="150" Margin="500,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Button x:Name="buttonStart" Content="开始游戏" HorizontalAlignment="Left" Margin="835,477,0,0" VerticalAlignment="Top" Width="148" Height="40" Click="ButtonStart_Click"/>
+        <Button x:Name="buttonAddMoney" Content="加注" HorizontalAlignment="Left" Margin="835,634,0,0" VerticalAlignment="Top" Width="149" Height="40" Click="ButtonAddMoney_Click"/>
+        <Button x:Name="buttonGetCard" Content="要牌" HorizontalAlignment="Left" Margin="835,530,0,0" VerticalAlignment="Top" Width="150" Height="39" Click="ButtonGetCard_Click"/>
+        <Button x:Name="buttonDontGetCard" Content="不要牌" HorizontalAlignment="Left" Margin="835,584,0,0" VerticalAlignment="Top" Width="149" Height="39" Click="ButtonDontGetCard_Click"/>
+        <Image x:Name="imageNpc11" HorizontalAlignment="Left" Height="150" Margin="100,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc12" HorizontalAlignment="Left" Height="150" Margin="130,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc13" HorizontalAlignment="Left" Height="150" Margin="160,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc14" HorizontalAlignment="Left" Height="150" Margin="190,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc15" HorizontalAlignment="Left" Height="150" Margin="220,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc31" HorizontalAlignment="Left" Height="150" Margin="630,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc32" HorizontalAlignment="Left" Height="150" Margin="660,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc33" HorizontalAlignment="Left" Height="150" Margin="690,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc34" HorizontalAlignment="Left" Height="150" Margin="720,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc35" Height="150" Margin="750,260,0,0" VerticalAlignment="Top" Source="resource/caohua1.jpg" Width="104" HorizontalAlignment="Left" RenderTransformOrigin="-1.346,0.397"/>
+        <Image x:Name="imageNpc21" HorizontalAlignment="Left" Height="150" Margin="380,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc22" HorizontalAlignment="Left" Height="150" Margin="410,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc23" HorizontalAlignment="Left" Height="150" Margin="440,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc24" HorizontalAlignment="Left" Height="150" Margin="470,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc25" HorizontalAlignment="Left" Height="150" Margin="500,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Label x:Name="label" Content="闲家Jack" HorizontalAlignment="Left" Margin="32,263,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="庄家Karn" HorizontalAlignment="Left" Margin="629,228,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="闲家Kinkin" HorizontalAlignment="Left" Margin="352,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="闲家Prinny" HorizontalAlignment="Left" Margin="303,496,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imageNpc06" HorizontalAlignment="Left" Height="150" Margin="530,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc07" HorizontalAlignment="Left" Height="150" Margin="560,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc08" HorizontalAlignment="Left" Height="150" Margin="590,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc09" HorizontalAlignment="Left" Height="150" Margin="620,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc010" HorizontalAlignment="Left" Height="150" Margin="650,500,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc16" HorizontalAlignment="Left" Height="150" Margin="250,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc17" HorizontalAlignment="Left" Height="150" Margin="280,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc18" HorizontalAlignment="Left" Height="150" Margin="310,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc19" HorizontalAlignment="Left" Height="150" Margin="340,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc110" HorizontalAlignment="Left" Height="150" Margin="370,260,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc26" HorizontalAlignment="Left" Height="150" Margin="530,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc27" HorizontalAlignment="Left" Height="150" Margin="560,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc28" HorizontalAlignment="Left" Height="150" Margin="590,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc29" HorizontalAlignment="Left" Height="150" Margin="620,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc210" HorizontalAlignment="Left" Height="150" Margin="650,70,0,0" VerticalAlignment="Top" Width="104" Source="resource/caohua1.jpg"/>
+        <Image x:Name="imageNpc36" Height="150" Margin="780,260,0,0" VerticalAlignment="Top" Source="resource/caohua1.jpg" Width="104" HorizontalAlignment="Left" RenderTransformOrigin="-1.346,0.397"/>
+        <Image x:Name="imageNpc37" Height="150" Margin="810,260,0,0" VerticalAlignment="Top" Source="resource/caohua1.jpg" Width="104" HorizontalAlignment="Left" RenderTransformOrigin="-1.346,0.397"/>
+        <Image x:Name="imageNpc38" Height="150" Margin="840,260,0,0" VerticalAlignment="Top" Source="resource/caohua1.jpg" Width="104" HorizontalAlignment="Left" RenderTransformOrigin="-1.346,0.397"/>
+        <Image x:Name="imageNpc39" Height="150" Margin="870,260,0,0" VerticalAlignment="Top" Source="resource/caohua1.jpg" Width="104" HorizontalAlignment="Left" RenderTransformOrigin="-1.346,0.397"/>
+        <Image x:Name="imageNpc310" Height="150" Margin="900,260,0,0" VerticalAlignment="Top" Source="resource/caohua1.jpg" Width="104" HorizontalAlignment="Left" RenderTransformOrigin="-1.346,0.397"/>
+        <Label x:Name="labelmoney1" Content="本钱" HorizontalAlignment="Left" Margin="304,526,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelmoney2" Content="本钱" HorizontalAlignment="Left" Margin="33,290,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelmoney3" Content="本钱" HorizontalAlignment="Left" Margin="430,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelmoney1X" Content="押注" HorizontalAlignment="Left" Margin="304,556,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelmoney2X" Content="押注" HorizontalAlignment="Left" Margin="33,315,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelmoney3X" Content="押注" HorizontalAlignment="Left" Margin="516,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelpoint1" Content="点数" HorizontalAlignment="Left" Margin="303,586,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelpoint2" Content="点数" HorizontalAlignment="Left" Margin="32,341,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelpoint3" Content="点数" HorizontalAlignment="Left" Margin="599,33,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

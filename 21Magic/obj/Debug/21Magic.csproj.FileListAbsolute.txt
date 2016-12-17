@@ -1,0 +1,14 @@
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\bin\Debug\21Magic.exe.config
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic.csprojResolveAssemblyReference.cache
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\MainWindow.g.cs
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\App.g.cs
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic_MarkupCompile.cache
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic_MarkupCompile.lref
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\bin\Debug\21Magic.exe
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\bin\Debug\21Magic.pdb
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\MainWindow.baml
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic.g.resources
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\_21Magic.Properties.Resources.resources
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic.csproj.GenerateResource.Cache
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic.exe
+C:\Users\19068\Documents\Visual Studio 2015\Projects\21Magic\21Magic\obj\Debug\21Magic.pdb
